@@ -15,6 +15,9 @@ public class Demo1 {
 	
 	{
         System.out.println("Varun");
+        System.out.println("Varun1");
+        System.out.println("Varun2");
+        System.out.println("Varun3");
 	  
 		String url ="https://rahulshettyacademy.com/getCourse.php?state=verifyfjdss&code=4%2FvAHBQUZU6o4WJ719NrGBzSELBFVBI9XbxvOtYpmYpeV47bFVExkaxWaF_XR14PHtTZf7ILSEeamywJKwo_BYs9M&scope=email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+openid&authuser=0&session_state=0c32992f0d47e93d273922018ade42d1072b9d1f..a35c&prompt=none#";
         String partialcode=url.split("code=")[1];
