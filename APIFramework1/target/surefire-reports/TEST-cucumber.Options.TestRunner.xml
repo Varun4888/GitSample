@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="cucumber.Options.TestRunner" time="0.752" tests="2" errors="2" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="21"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\aksha\eclipse-workspace\APIFramework1\target\test-classes;C:\Users\aksha\eclipse-workspace\APIFramework1\target\classes;C:\Users\aksha\.m2\repository\io\rest-assured\rest-assured\5.1.1\rest-assured-5.1.1.jar;C:\Users\aksha\.m2\repository\org\apache\groovy\groovy\4.0.1\groovy-4.0.1.jar;C:\Users\aksha\.m2\repository\org\apache\groovy\groovy-xml\4.0.1\groovy-xml-4.0.1.jar;C:\Users\aksha\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\aksha\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\aksha\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\aksha\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\aksha\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\aksha\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\aksha\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\aksha\.m2\repository\io\rest-assured\json-path\5.1.1\json-path-5.1.1.jar;C:\Users\aksha\.m2\repository\org\apache\groovy\groovy-json\4.0.1\groovy-json-4.0.1.jar;C:\Users\aksha\.m2\repository\io\rest-assured\rest-assured-common\5.1.1\rest-assured-common-5.1.1.jar;C:\Users\aksha\.m2\repository\io\rest-assured\xml-path\5.1.1\xml-path-5.1.1.jar;C:\Users\aksha\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\aksha\.m2\repository\io\cucumber\cucumber-java\7.18.1\cucumber-java-7.18.1.jar;C:\Users\aksha\.m2\repository\io\cucumber\cucumber-core\7.18.1\cucumber-core-7.18.1.jar;C:\Users\aksha\.m2\repository\io\cucumber\cucumber-gherkin\7.18.1\cucumber-gherkin-7.18.1.jar;C:\Users\aksha\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.18.1\cucumber-gherkin-messages-7.18.1.jar;C:\Users\aksha\.m2\repository\io\cucumber\gherkin\28.0.0\gherkin-28.0.0.jar;C:\Users\aksha\.m2\repository\io\cucumber\messages\24.1.0\messages-24.1.0.jar;C:\Users\aksha\.m2\repository\io\cucumber\testng-xml-formatter\0.2.0\testng-xml-formatter-0.2.0.jar;C:\Users\aksha\.m2\repository\io\cucumber\query\12.2.0\query-12.2.0.jar;C:\Users\aksha\.m2\repository\io\cucumber\tag-expressions\6.1.0\tag-expressions-6.1.0.jar;C:\Users\aksha\.m2\repository\io\cucumber\cucumber-expressions\17.1.0\cucumber-expressions-17.1.0.jar;C:\Users\aksha\.m2\repository\io\cucumber\datatable\7.18.1\datatable-7.18.1.jar;C:\Users\aksha\.m2\repository\io\cucumber\cucumber-plugin\7.18.1\cucumber-plugin-7.18.1.jar;C:\Users\aksha\.m2\repository\io\cucumber\docstring\7.18.1\docstring-7.18.1.jar;C:\Users\aksha\.m2\repository\io\cucumber\html-formatter\21.4.1\html-formatter-21.4.1.jar;C:\Users\aksha\.m2\repository\io\cucumber\junit-xml-formatter\0.5.0\junit-xml-formatter-0.5.0.jar;C:\Users\aksha\.m2\repository\io\cucumber\ci-environment\10.0.1\ci-environment-10.0.1.jar;C:\Users\aksha\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\aksha\.m2\repository\io\cucumber\cucumber-junit\7.18.1\cucumber-junit-7.18.1.jar;C:\Users\aksha\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\aksha\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\aksha\.m2\repository\org\junit\vintage\junit-vintage-engine\5.8.2\junit-vintage-engine-5.8.2.jar;C:\Users\aksha\.m2\repository\org\junit\platform\junit-platform-engine\1.8.2\junit-platform-engine-1.8.2.jar;C:\Users\aksha\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\aksha\.m2\repository\org\junit\platform\junit-platform-commons\1.8.2\junit-platform-commons-1.8.2.jar;C:\Users\aksha\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.17.2\jackson-databind-2.17.2.jar;C:\Users\aksha\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.17.2\jackson-annotations-2.17.2.jar;C:\Users\aksha\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.17.2\jackson-core-2.17.2.jar;C:\Users\aksha\.m2\repository\org\codehaus\groovy\groovy\3.0.9\groovy-3.0.9.jar;C:\Users\aksha\.m2\repository\org\codehaus\groovy\groovy-ant\3.0.9\groovy-ant-3.0.9.jar;C:\Users\aksha\.m2\repository\org\apache\ant\ant\1.10.11\ant-1.10.11.jar;C:\Users\aksha\.m2\repository\org\apache\ant\ant-junit\1.10.11\ant-junit-1.10.11.jar;C:\Users\aksha\.m2\repository\org\apache\ant\ant-launcher\1.10.11\ant-launcher-1.10.11.jar;C:\Users\aksha\.m2\repository\org\apache\ant\ant-antlr\1.10.11\ant-antlr-1.10.11.jar;C:\Users\aksha\.m2\repository\org\codehaus\groovy\groovy-astbuilder\3.0.9\groovy-astbuilder-3.0.9.jar;C:\Users\aksha\.m2\repository\org\codehaus\groovy\groovy-cli-picocli\3.0.9\groovy-cli-picocli-3.0.9.jar;C:\Users\aksha\.m2\repository\info\picocli\picocli\4.6.1\picocli-4.6.1.jar;C:\Users\aksha\.m2\repository\org\codehaus\groovy\groovy-console\3.0.9\groovy-console-3.0.9.jar;C:\Users\aksha\.m2\repository\org\codehaus\groovy\groovy-datetime\3.0.9\groovy-datetime-3.0.9.jar;C:\Users\aksha\.m2\repository\org\codehaus\groovy\groovy-docgenerator\3.0.9\groovy-docgenerator-3.0.9.jar;C:\Users\aksha\.m2\repository\com\thoughtworks\qdox\qdox\1.12.1\qdox-1.12.1.jar;C:\Users\aksha\.m2\repository\org\codehaus\groovy\groovy-groovydoc\3.0.9\groovy-groovydoc-3.0.9.jar;C:\Users\aksha\.m2\repository\com\github\javaparser\javaparser-core\3.23.0\javaparser-core-3.23.0.jar;C:\Users\aksha\.m2\repository\org\codehaus\groovy\groovy-groovysh\3.0.9\groovy-groovysh-3.0.9.jar;C:\Users\aksha\.m2\repository\jline\jline\2.14.6\jline-2.14.6.jar;C:\Users\aksha\.m2\repository\org\codehaus\groovy\groovy-jmx\3.0.9\groovy-jmx-3.0.9.jar;C:\Users\aksha\.m2\repository\org\codehaus\groovy\groovy-json\3.0.9\groovy-json-3.0.9.jar;C:\Users\aksha\.m2\repository\org\codehaus\groovy\groovy-jsr223\3.0.9\groovy-jsr223-3.0.9.jar;C:\Users\aksha\.m2\repository\org\codehaus\groovy\groovy-macro\3.0.9\groovy-macro-3.0.9.jar;C:\Users\aksha\.m2\repository\org\codehaus\groovy\groovy-nio\3.0.9\groovy-nio-3.0.9.jar;C:\Users\aksha\.m2\repository\org\codehaus\groovy\groovy-servlet\3.0.9\groovy-servlet-3.0.9.jar;C:\Users\aksha\.m2\repository\org\codehaus\groovy\groovy-sql\3.0.9\groovy-sql-3.0.9.jar;C:\Users\aksha\.m2\repository\org\codehaus\groovy\groovy-swing\3.0.9\groovy-swing-3.0.9.jar;C:\Users\aksha\.m2\repository\org\codehaus\groovy\groovy-templates\3.0.9\groovy-templates-3.0.9.jar;C:\Users\aksha\.m2\repository\org\codehaus\groovy\groovy-test\3.0.9\groovy-test-3.0.9.jar;C:\Users\aksha\.m2\repository\org\codehaus\groovy\groovy-test-junit5\3.0.9\groovy-test-junit5-3.0.9.jar;C:\Users\aksha\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.2\junit-jupiter-api-5.7.2.jar;C:\Users\aksha\.m2\repository\org\junit\platform\junit-platform-launcher\1.7.2\junit-platform-launcher-1.7.2.jar;C:\Users\aksha\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.7.2\junit-jupiter-engine-5.7.2.jar;C:\Users\aksha\.m2\repository\org\codehaus\groovy\groovy-testng\3.0.9\groovy-testng-3.0.9.jar;C:\Users\aksha\.m2\repository\org\testng\testng\7.4.0\testng-7.4.0.jar;C:\Users\aksha\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\aksha\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\Users\aksha\.m2\repository\org\codehaus\groovy\groovy-xml\3.0.9\groovy-xml-3.0.9.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="user.country.format" value="001"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="GB"/>
+    <property name="sun.boot.library.path" value="D:\Varun\My folder\jdk-21.0.4\bin"/>
+    <property name="sun.java.command" value="C:\Users\aksha\AppData\Local\Temp\surefire7821961336021073008\surefirebooter-20240925101327472_3.jar C:\Users\aksha\AppData\Local\Temp\surefire7821961336021073008 2024-09-25T10-13-27_271-jvmRun1 surefire-20240925101327472_1tmp surefire_0-20240925101327472_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\aksha\eclipse-workspace\APIFramework1\target\test-classes;C:\Users\aksha\eclipse-workspace\APIFramework1\target\classes;C:\Users\aksha\.m2\repository\io\rest-assured\rest-assured\5.1.1\rest-assured-5.1.1.jar;C:\Users\aksha\.m2\repository\org\apache\groovy\groovy\4.0.1\groovy-4.0.1.jar;C:\Users\aksha\.m2\repository\org\apache\groovy\groovy-xml\4.0.1\groovy-xml-4.0.1.jar;C:\Users\aksha\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\aksha\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\aksha\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\aksha\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\aksha\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\aksha\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\aksha\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\aksha\.m2\repository\io\rest-assured\json-path\5.1.1\json-path-5.1.1.jar;C:\Users\aksha\.m2\repository\org\apache\groovy\groovy-json\4.0.1\groovy-json-4.0.1.jar;C:\Users\aksha\.m2\repository\io\rest-assured\rest-assured-common\5.1.1\rest-assured-common-5.1.1.jar;C:\Users\aksha\.m2\repository\io\rest-assured\xml-path\5.1.1\xml-path-5.1.1.jar;C:\Users\aksha\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\aksha\.m2\repository\io\cucumber\cucumber-java\7.18.1\cucumber-java-7.18.1.jar;C:\Users\aksha\.m2\repository\io\cucumber\cucumber-core\7.18.1\cucumber-core-7.18.1.jar;C:\Users\aksha\.m2\repository\io\cucumber\cucumber-gherkin\7.18.1\cucumber-gherkin-7.18.1.jar;C:\Users\aksha\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.18.1\cucumber-gherkin-messages-7.18.1.jar;C:\Users\aksha\.m2\repository\io\cucumber\gherkin\28.0.0\gherkin-28.0.0.jar;C:\Users\aksha\.m2\repository\io\cucumber\messages\24.1.0\messages-24.1.0.jar;C:\Users\aksha\.m2\repository\io\cucumber\testng-xml-formatter\0.2.0\testng-xml-formatter-0.2.0.jar;C:\Users\aksha\.m2\repository\io\cucumber\query\12.2.0\query-12.2.0.jar;C:\Users\aksha\.m2\repository\io\cucumber\tag-expressions\6.1.0\tag-expressions-6.1.0.jar;C:\Users\aksha\.m2\repository\io\cucumber\cucumber-expressions\17.1.0\cucumber-expressions-17.1.0.jar;C:\Users\aksha\.m2\repository\io\cucumber\datatable\7.18.1\datatable-7.18.1.jar;C:\Users\aksha\.m2\repository\io\cucumber\cucumber-plugin\7.18.1\cucumber-plugin-7.18.1.jar;C:\Users\aksha\.m2\repository\io\cucumber\docstring\7.18.1\docstring-7.18.1.jar;C:\Users\aksha\.m2\repository\io\cucumber\html-formatter\21.4.1\html-formatter-21.4.1.jar;C:\Users\aksha\.m2\repository\io\cucumber\junit-xml-formatter\0.5.0\junit-xml-formatter-0.5.0.jar;C:\Users\aksha\.m2\repository\io\cucumber\ci-environment\10.0.1\ci-environment-10.0.1.jar;C:\Users\aksha\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\aksha\.m2\repository\io\cucumber\cucumber-junit\7.18.1\cucumber-junit-7.18.1.jar;C:\Users\aksha\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\aksha\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\aksha\.m2\repository\org\junit\vintage\junit-vintage-engine\5.8.2\junit-vintage-engine-5.8.2.jar;C:\Users\aksha\.m2\repository\org\junit\platform\junit-platform-engine\1.8.2\junit-platform-engine-1.8.2.jar;C:\Users\aksha\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\aksha\.m2\repository\org\junit\platform\junit-platform-commons\1.8.2\junit-platform-commons-1.8.2.jar;C:\Users\aksha\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.17.2\jackson-databind-2.17.2.jar;C:\Users\aksha\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.17.2\jackson-annotations-2.17.2.jar;C:\Users\aksha\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.17.2\jackson-core-2.17.2.jar;C:\Users\aksha\.m2\repository\org\codehaus\groovy\groovy\3.0.9\groovy-3.0.9.jar;C:\Users\aksha\.m2\repository\org\codehaus\groovy\groovy-ant\3.0.9\groovy-ant-3.0.9.jar;C:\Users\aksha\.m2\repository\org\apache\ant\ant\1.10.11\ant-1.10.11.jar;C:\Users\aksha\.m2\repository\org\apache\ant\ant-junit\1.10.11\ant-junit-1.10.11.jar;C:\Users\aksha\.m2\repository\org\apache\ant\ant-launcher\1.10.11\ant-launcher-1.10.11.jar;C:\Users\aksha\.m2\repository\org\apache\ant\ant-antlr\1.10.11\ant-antlr-1.10.11.jar;C:\Users\aksha\.m2\repository\org\codehaus\groovy\groovy-astbuilder\3.0.9\groovy-astbuilder-3.0.9.jar;C:\Users\aksha\.m2\repository\org\codehaus\groovy\groovy-cli-picocli\3.0.9\groovy-cli-picocli-3.0.9.jar;C:\Users\aksha\.m2\repository\info\picocli\picocli\4.6.1\picocli-4.6.1.jar;C:\Users\aksha\.m2\repository\org\codehaus\groovy\groovy-console\3.0.9\groovy-console-3.0.9.jar;C:\Users\aksha\.m2\repository\org\codehaus\groovy\groovy-datetime\3.0.9\groovy-datetime-3.0.9.jar;C:\Users\aksha\.m2\repository\org\codehaus\groovy\groovy-docgenerator\3.0.9\groovy-docgenerator-3.0.9.jar;C:\Users\aksha\.m2\repository\com\thoughtworks\qdox\qdox\1.12.1\qdox-1.12.1.jar;C:\Users\aksha\.m2\repository\org\codehaus\groovy\groovy-groovydoc\3.0.9\groovy-groovydoc-3.0.9.jar;C:\Users\aksha\.m2\repository\com\github\javaparser\javaparser-core\3.23.0\javaparser-core-3.23.0.jar;C:\Users\aksha\.m2\repository\org\codehaus\groovy\groovy-groovysh\3.0.9\groovy-groovysh-3.0.9.jar;C:\Users\aksha\.m2\repository\jline\jline\2.14.6\jline-2.14.6.jar;C:\Users\aksha\.m2\repository\org\codehaus\groovy\groovy-jmx\3.0.9\groovy-jmx-3.0.9.jar;C:\Users\aksha\.m2\repository\org\codehaus\groovy\groovy-json\3.0.9\groovy-json-3.0.9.jar;C:\Users\aksha\.m2\repository\org\codehaus\groovy\groovy-jsr223\3.0.9\groovy-jsr223-3.0.9.jar;C:\Users\aksha\.m2\repository\org\codehaus\groovy\groovy-macro\3.0.9\groovy-macro-3.0.9.jar;C:\Users\aksha\.m2\repository\org\codehaus\groovy\groovy-nio\3.0.9\groovy-nio-3.0.9.jar;C:\Users\aksha\.m2\repository\org\codehaus\groovy\groovy-servlet\3.0.9\groovy-servlet-3.0.9.jar;C:\Users\aksha\.m2\repository\org\codehaus\groovy\groovy-sql\3.0.9\groovy-sql-3.0.9.jar;C:\Users\aksha\.m2\repository\org\codehaus\groovy\groovy-swing\3.0.9\groovy-swing-3.0.9.jar;C:\Users\aksha\.m2\repository\org\codehaus\groovy\groovy-templates\3.0.9\groovy-templates-3.0.9.jar;C:\Users\aksha\.m2\repository\org\codehaus\groovy\groovy-test\3.0.9\groovy-test-3.0.9.jar;C:\Users\aksha\.m2\repository\org\codehaus\groovy\groovy-test-junit5\3.0.9\groovy-test-junit5-3.0.9.jar;C:\Users\aksha\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.2\junit-jupiter-api-5.7.2.jar;C:\Users\aksha\.m2\repository\org\junit\platform\junit-platform-launcher\1.7.2\junit-platform-launcher-1.7.2.jar;C:\Users\aksha\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.7.2\junit-jupiter-engine-5.7.2.jar;C:\Users\aksha\.m2\repository\org\codehaus\groovy\groovy-testng\3.0.9\groovy-testng-3.0.9.jar;C:\Users\aksha\.m2\repository\org\testng\testng\7.4.0\testng-7.4.0.jar;C:\Users\aksha\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\aksha\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\Users\aksha\.m2\repository\org\codehaus\groovy\groovy-xml\3.0.9\groovy-xml-3.0.9.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\aksha"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-07-16"/>
+    <property name="java.home" value="D:\Varun\My folder\jdk-21.0.4"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\aksha\eclipse-workspace\APIFramework1"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\aksha\AppData\Local\Temp\surefire7821961336021073008\surefirebooter-20240925101327472_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="21.0.4+8-LTS-274"/>
+    <property name="user.name" value="aksha"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\aksha\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\aksha\AppData\Local\Temp\"/>
+    <property name="java.version" value="21.0.4"/>
+    <property name="user.dir" value="C:\Users\aksha\eclipse-workspace\APIFramework1"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="D:\Varun\My folder\jdk-21.0.4\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;D:\Varun\My folder\jdk-21.0.4\bin;C:\Program Files\apache-maven-3.9.9-bin\apache-maven-3.9.9\bin;C:\Users\aksha\AppData\Local\Microsoft\WindowsApps;C:\Users\aksha\AppData\Local\Muse Hub\lib;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="21.0.4+8-LTS-274"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="65.0"/>
+  </properties>
+  <testcase name="Verify if place is being successfully added using AddPlaceAPI" classname="Validating place APIs" time="0.615">
+    <error type="java.lang.ExceptionInInitializerError"><![CDATA[java.lang.ExceptionInInitializerError
+	at org.codehaus.groovy.reflection.ClassInfo.isValidWeakMetaClass(ClassInfo.java:283)
+	at org.codehaus.groovy.reflection.ClassInfo.getMetaClassForClass(ClassInfo.java:253)
+	at org.codehaus.groovy.reflection.ClassInfo.getMetaClass(ClassInfo.java:309)
+	at io.restassured.authentication.NoAuthScheme.$getStaticMetaClass(NoAuthScheme.groovy)
+	at io.restassured.authentication.NoAuthScheme.<init>(NoAuthScheme.groovy)
+	at io.restassured.RestAssured.<clinit>(RestAssured.java:355)
+	at io.restassured.builder.ResponseSpecBuilder.<init>(ResponseSpecBuilder.java:66)
+	at stepDefinitions.StepDefinitions.add_place_payload_with(StepDefinitions.java:31)
+	at ✽.Add place Payload with "Krisha" "Marathi" "M.G.Road"(file:///C:/Users/aksha/eclipse-workspace/APIFramework1/src/test/java/features/placevalidation.feature:4)
+Caused by: groovy.lang.GroovyRuntimeException: Conflicting module versions. Module [groovy-xml is loaded in version 4.0.1 and you are trying to load version 3.0.9
+	at org.codehaus.groovy.runtime.metaclass.MetaClassRegistryImpl$DefaultModuleListener.onModule(MetaClassRegistryImpl.java:534)
+	at org.codehaus.groovy.runtime.m12n.ExtensionModuleScanner.scanExtensionModuleFromProperties(ExtensionModuleScanner.java:87)
+	at org.codehaus.groovy.runtime.m12n.ExtensionModuleScanner.scanExtensionModuleFromMetaInf(ExtensionModuleScanner.java:81)
+	at org.codehaus.groovy.runtime.m12n.ExtensionModuleScanner.scanClasspathModulesFrom(ExtensionModuleScanner.java:63)
+	at org.codehaus.groovy.runtime.m12n.ExtensionModuleScanner.scanClasspathModules(ExtensionModuleScanner.java:54)
+	at org.codehaus.groovy.runtime.metaclass.MetaClassRegistryImpl.<init>(MetaClassRegistryImpl.java:133)
+	at org.codehaus.groovy.runtime.metaclass.MetaClassRegistryImpl.<init>(MetaClassRegistryImpl.java:94)
+	at groovy.lang.GroovySystem.<clinit>(GroovySystem.java:37)
+	at org.codehaus.groovy.reflection.ClassInfo.isValidWeakMetaClass(ClassInfo.java:283)
+	at org.codehaus.groovy.reflection.ClassInfo.getMetaClassForClass(ClassInfo.java:253)
+	at org.codehaus.groovy.reflection.ClassInfo.getMetaClass(ClassInfo.java:309)
+	at io.restassured.authentication.NoAuthScheme.$getStaticMetaClass(NoAuthScheme.groovy)
+	at io.restassured.authentication.NoAuthScheme.<init>(NoAuthScheme.groovy)
+	at io.restassured.RestAssured.<clinit>(RestAssured.java:355)
+	at io.restassured.builder.ResponseSpecBuilder.<init>(ResponseSpecBuilder.java:66)
+	at stepDefinitions.StepDefinitions.add_place_payload_with(StepDefinitions.java:31)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:81)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:53)
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:84)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.lambda$run$0(PickleRunners.java:151)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136)
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:148)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:144)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:28)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at io.cucumber.junit.FeatureRunner.run(FeatureRunner.java:137)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:196)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:89)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runFeatures$6(CucumberExecutionContext.java:147)
+	at io.cucumber.core.runtime.CucumberExecutionContext.execute(CucumberExecutionContext.java:162)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runFeatures(CucumberExecutionContext.java:145)
+	at io.cucumber.junit.Cucumber$StartAndFinishTestRun.evaluate(Cucumber.java:226)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.junit.vintage.engine.execution.RunnerExecutor.execute(RunnerExecutor.java:42)
+	at org.junit.vintage.engine.VintageTestEngine.executeAllChildren(VintageTestEngine.java:80)
+	at org.junit.vintage.engine.VintageTestEngine.execute(VintageTestEngine.java:72)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:108)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:88)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:67)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:52)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:96)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:75)
+	at org.apache.maven.surefire.junitplatform.LazyLauncher.execute(LazyLauncher.java:56)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.execute(JUnitPlatformProvider.java:184)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:148)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:122)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></error>
+  </testcase>
+  <testcase name="Verify if Delete place functionality is working" classname="Validating place APIs" time="0.017">
+    <error message="The step &apos;DeletePlace payload&apos; and 2 other step(s) are undefined.&#10;You can implement these steps using the snippet(s) below:&#10;&#10;@Given(&quot;DeletePlace payload&quot;)&#10;public void delete_place_payload() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@When(&quot;user calls {string} with {string} http request&quot;)&#10;public void user_calls_with_http_request(String string, String string2) {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;{string} in response body {string}&quot;)&#10;public void in_response_body(String string, String string2) {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;" type="io.cucumber.junit.UndefinedStepException"><![CDATA[io.cucumber.junit.UndefinedStepException: 
+The step 'DeletePlace payload' and 2 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("DeletePlace payload")
+public void delete_place_payload() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("user calls {string} with {string} http request")
+public void user_calls_with_http_request(String string, String string2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("{string} in response body {string}")
+public void in_response_body(String string, String string2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+]]></error>
+  </testcase>
+</testsuite>
